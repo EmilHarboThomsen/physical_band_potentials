@@ -78,7 +78,7 @@ def predict_band_diagram(my_struc):
     import itertools
     import numpy as np
 
-    Set following path according to saved locations.
+    #Set following path according to saved locations.
     BG2_MODEL_PATH = "path_to_model_file: ./bandgap_model/m2-rs464_50epoch.pth.tar" 
     BG2_PREDICTION_DIR = "path_to_predictor_directory: ./bandgap_model/cgcnn_prediction/"
     VB_3D_MODEL_PATH = "path_to_model_file: ../CGCNN/3D-TL-CGCNN/best_model.pth.tar"
